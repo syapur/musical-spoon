@@ -1,0 +1,24 @@
+
+Para configurar un repositorio remoto
+git remote add origin https://github.com/syapur/musical-spoon.git
+
+Para subir los datos hacia el server
+git push --all
+
+Para ver las ramas actuales
+git branch
+
+Cambios recientes 
+git log --oneline
+
+generar un checkpoint
+git commit .
+
+Para borrar archivos que aun no fueron agregados con git add
+git clean -nd 
+
+Para guardar cambios en archivos en un buffer (stash) para su uso posterior
+git stash 
+
+para deshacer cambios que fueron staged (add) pero aun no fueron "commit"
+git restore .
